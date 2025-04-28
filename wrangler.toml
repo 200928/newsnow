@@ -1,0 +1,8 @@
+name = "newsnow"
+pages_build_output_dir = "dist/output/public"
+compatibility_date = "2024-10-03"
+
+[[d1_databases]]
+binding = "NEWSNOW_DB" # 你在代码中引用数据库的名称
+database_name = "newsnow" # 你在 Cloudflare D1 中创建的数据库名称
+database_id = "2843c815-7730-44fc-9328-4134f40c1402" # 替换为实际的数据库 ID
